@@ -1,55 +1,75 @@
-<p align="center">
-  <a href="https://venus.filecoin.io/intro/" title="Filecoin Docs">
-    <img src="documentation/images/venus_logo_big2.jpg" alt="Project Venus Logo" width="330" />
-  </a>
-</p>
+[update-readmes]   Mode: rewrite — migrating to template structure...
+# venus
 
+[![Built with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/Interested-Deving-1896/venus)
 
+<!-- AI:start:what-it-does -->
+_Description pending._
+<!-- AI:end:what-it-does -->
 
-<h1 align="center">Project Venus - 启明星</h1>
+## Architecture
 
-<p align="center">
- <a href="https://github.com/filecoin-project/venus/actions"><img src="https://github.com/filecoin-project/venus/actions/workflows/build_upload.yml/badge.svg"/></a>
- <a href="https://codecov.io/gh/filecoin-project/venus"><img src="https://codecov.io/gh/filecoin-project/venus/branch/master/graph/badge.svg?token=J5QWYWkgHT"/></a>
- <a href="https://goreportcard.com/report/github.com/filecoin-project/venus"><img src="https://goreportcard.com/badge/github.com/filecoin-project/venus"/></a>
- <a href="https://github.com/filecoin-project/venus/tags"><img src="https://img.shields.io/github/v/tag/filecoin-project/venus"/></a>
-  <br>
-</p>
+<!-- AI:start:architecture -->
+_Architecture documentation pending._
+<!-- AI:end:architecture -->
 
+## Install
 
-Venus is an implementation of the Filecoin Distributed Storage Network. For more details about Filecoin, check out the [Filecoin Spec](https://spec.filecoin.io).
+<!-- Add installation instructions here. This section is yours — the AI will not modify it. -->
 
-## Building & Documentation
+```bash
+git clone https://github.com/Interested-Deving-1896/venus.git
+cd venus
+```
 
-For instructions on how to build, install and join a venus storage pool, please visit [here](https://venus.filecoin.io/intro/).
+## Usage
 
-## Venus architecture
+<!-- Add usage examples here. This section is yours — the AI will not modify it. -->
 
-With key features like security, ease of use and distributed storage pool, the deployment of a node using Venus is quite different from the one using [Lotus](https://github.com/filecoin-project/lotus). Details of mining architecture can be found [here](https://venus.filecoin.io/intro/#how-venus-works).
+## Configuration
 
-## Related modules
+<!-- Document configuration options here. This section is yours — the AI will not modify it. -->
 
-Venus loosely describes a collection of modules that work together to realize a fully featured Filecoin implementation. List of stand-alone venus modules repos can be found [here](https://venus.filecoin.io/intro/#how-venus-works), each assuming different roles in the functioning of Filecoin.
+## CI
 
-## Contribute
+<!-- AI:start:ci -->
+_CI documentation pending._
+<!-- AI:end:ci -->
 
-Venus is a universally open project and welcomes contributions of all kinds: code, docs, and more. However, before making a contribution, we ask you to heed these recommendations:
+## Mirror chain
 
-1. If the proposal entails a protocol change, please first submit a [Filecoin Improvement Proposal](https://github.com/filecoin-project/FIPs).
-2. If the change is complex and requires prior discussion, [open an issue](https://github.com/filecoin-project/venus/issues) or a [discussion](https://github.com/filecoin-project/venus/discussions) to request feedback before you start working on a pull request. This is to avoid disappointment and sunk costs, in case the change is not actually needed or accepted.
-3. Please refrain from submitting PRs to adapt existing code to subjective preferences. The changeset should contain functional or technical improvements/enhancements, bug fixes, new features, or some other clear material contribution. Simple stylistic changes are likely to be rejected in order to reduce code churn.
+<!-- AI:start:mirror-chain -->
+This repo is maintained in [`Interested-Deving-1896/venus`](https://github.com/Interested-Deving-1896/venus) and mirrored through:
 
-When implementing a change:
+```
+Interested-Deving-1896/venus  ──►  OpenOS-Project-OSP/venus  ──►  OpenOS-Project-Ecosystem-OOC/venus
+```
 
-1. Adhere to the standard Go formatting guidelines, e.g. [Effective Go](https://golang.org/doc/effective_go.html). Run `go fmt`.
-2. Stick to the idioms and patterns used in the codebase. Familiar-looking code has a higher chance of being accepted than eerie code. Pay attention to commonly used variable and parameter names, avoidance of naked returns, error handling patterns, etc.
-3. Comments: follow the advice on the [Commentary](https://golang.org/doc/effective_go.html#commentary) section of Effective Go.
-4. Minimize code churn. Modify only what is strictly necessary. Well-encapsulated changesets will get a quicker response from maintainers.
-5. Lint your code with [`golangci-lint`](https://golangci-lint.run) (CI will reject your PR if unlinted).
-6. Add tests.
-7. Title the PR in a meaningful way and describe the rationale and the thought process in the PR description.
-8. Write clean, thoughtful, and detailed [commit messages](https://chris.beams.io/posts/git-commit/). This is even more important than the PR description, because commit messages are stored _inside_ the Git history. One good rule is: if you are happy posting the commit message as the PR description, then it's a good commit message.
+Changes flow downstream automatically via the hourly mirror chain in
+[`fork-sync-all`](https://github.com/Interested-Deving-1896/fork-sync-all).
+Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-Deving-1896`.
+<!-- AI:end:mirror-chain -->
+
+## Contributors
+
+<!-- AI:start:contributors -->
+_Contributors pending._
+<!-- AI:end:contributors -->
+
+## Origins
+
+<!-- AI:start:origins -->
+_Original project — no upstream fork._
+<!-- AI:end:origins -->
+
+## Resources
+
+<!-- AI:start:resources -->
+_No additional resource files found._
+<!-- AI:end:resources -->
 
 ## License
 
-This project is dual-licensed under [Apache 2.0](https://github.com/filecoin-project/venus/blob/master/LICENSE-APACHE) and [MIT](https://github.com/filecoin-project/venus/blob/master/LICENSE-MIT).
+<!-- AI:start:license -->
+<!-- License not detected — add a LICENSE file to this repo. -->
+<!-- AI:end:license -->
